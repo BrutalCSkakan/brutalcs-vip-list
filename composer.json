@@ -1,0 +1,17 @@
+{
+    "name": "carln/brutalcs-vip-list",
+    "description": "Active VIP players on BrutalCS servers",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "BrutalCS\\": "src/php/"
+        }
+    },
+    "require": {
+        "mustache/mustache": "dev-master",
+        "vlucas/phpdotenv": "dev-master",
+        "php-di/php-di": "dev-master"
+    }
+}
